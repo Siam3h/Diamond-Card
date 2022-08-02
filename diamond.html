@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    background: #cfcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
+    height: 500px;
+    width: 300px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 40px;
+    color: #FF4B4B;
+}
+
+.diamond {
+    height: 20px;
+    width: 20px;
+    background: #FF4B4B;
+    transform: rotate(45deg);
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.first-no > h1 {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.second-no {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    transform: rotate(180deg);
+}
+
+.diamonds {
+    margin-top: 30px;
+}
+
+.d-2 {
+    margin-top: 120px;
+}
+
+.d {
+    height: 70px;
+    width: 70px;
+    background: #FF4B4B;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    margin-left: 38%;
+}
+        </style>
+    </header>
+    <body>
+        <div class="card">
+            <div class="numbers">
+                <div class="first-no">
+                    <h1>4</h1>
+                    <div class="diamond"></div>
+                </div>
+                <div class="second-no">
+                   <h2>4</h2>
+                   <div class="diamond"></div>
+                </div>
+            </div>
+            <div class="diamonds">
+                <div class="d d-1"></div>
+                <div class="d d-2"></div>
+            </div>
+        </div>
+    </body>
+</html>
